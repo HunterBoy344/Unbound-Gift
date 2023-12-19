@@ -285,7 +285,7 @@ async function onFileSelected() {
     }
     tryInitSound()
     // var file = fileInput.files[0]
-    var file = await fetch('PokeEmerald.gba').then(r => r.blob());
+    var file = await fetch('/Unbound-Gift/PokeEmerald.gba').then(r => r.blob());
     /*var fileNameLower = file.name.toLowerCase()
     if (!fileNameLower.endsWith('.gba')) {
         alert('Please select a .gba file.')
